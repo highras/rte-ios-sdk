@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		MvId6hSOmzMUs96d7Fg/okrTsTo=
+		</data>
 		<key>Headers/FPNError.h</key>
 		<data>
 		P7z3MG4lyCyL6pJWRNHZHBhD9p8=
@@ -174,7 +178,7 @@
 		</data>
 		<key>Headers/LDEngine.h</key>
 		<data>
-		Kqiwzdpv4dElC54TZWa0RSdlBgU=
+		gcaHeSzT70sR1mdjF+S08zWc1Js=
 		</data>
 		<key>Headers/LDEnum.h</key>
 		<data>
@@ -184,9 +188,29 @@
 		<data>
 		qBMB2ZoG7uApSoLKooni4fIytqg=
 		</data>
+		<key>Headers/LDVoiceRoomClient+VoiceRoom.h</key>
+		<data>
+		cxVvnjP8pQkZiOa4Fyi7u+c1Rhg=
+		</data>
+		<key>Headers/LDVoiceRoomClient.h</key>
+		<data>
+		9JScUB3y1BcMVsoWZ9bVTaSdheA=
+		</data>
+		<key>Headers/LDVoiceRoomCreateRoomAnswer.h</key>
+		<data>
+		RPGRVnIngNldDMkzzk5MFUih8pQ=
+		</data>
+		<key>Headers/LDVoiceRoomDelegate.h</key>
+		<data>
+		ZaWD5NCgJgbWVbjOQ53wBVcV+58=
+		</data>
+		<key>Headers/LDVoiceRoomEnterRoomAnswer.h</key>
+		<data>
+		liNTTNwz2kmvhk/UF6zf+kMd9ZA=
+		</data>
 		<key>Headers/LiveDataEngine.h</key>
 		<data>
-		HqLFQ13dDgDgB5KJPzsvrmkou6g=
+		BRZksaEcuZWUmMOanVaF4U0t7GQ=
 		</data>
 		<key>Headers/RTCAudioCreateRoomAnswer.h</key>
 		<data>
@@ -224,9 +248,45 @@
 		<data>
 		H3KltVlc3ha0GhFeG1u9aOZlvUw=
 		</data>
+		<key>Headers/RTCClient+AutoTranslateAudioRoom.h</key>
+		<data>
+		zMoKPNF2xDQvfcUID3q9BrKraTI=
+		</data>
+		<key>Headers/RTCClient+VideoP2p.h</key>
+		<data>
+		NnEUrQVLy3eiyq+PG0bMW4BBa8c=
+		</data>
+		<key>Headers/RTCClient+VideoRoom.h</key>
+		<data>
+		BZ+XaR6FAtQD4NhCE7H2APRaDEQ=
+		</data>
 		<key>Headers/RTCClient.h</key>
 		<data>
 		YRNv8GpRU/oeECFOQC1g4TJBdM4=
+		</data>
+		<key>Headers/RTCVideoCreateRoomAnswer.h</key>
+		<data>
+		GHEVE4db2iJ0PZTHDsxFuJb3fUc=
+		</data>
+		<key>Headers/RTCVideoEnterRoomAnswer.h</key>
+		<data>
+		YrnGX1YTLWXHvGNckEtGqfmLclA=
+		</data>
+		<key>Headers/RTCVideoEnterRoomTokenAnswer.h</key>
+		<data>
+		S6At64NNNN6m7O88/jAp6xv662E=
+		</data>
+		<key>Headers/RTCVideoProtocol.h</key>
+		<data>
+		MG7fgbMAnpjxfFvSL35okD8OcRA=
+		</data>
+		<key>Headers/RTCVideoRoomMemberCount.h</key>
+		<data>
+		uDvsLLHG94TDapy0NX3nPmfet8U=
+		</data>
+		<key>Headers/RTCVideoRoomMembersAnswer.h</key>
+		<data>
+		aHuOn5B5jZh/a1eoaGoijvVAD9s=
 		</data>
 		<key>Headers/RTMAttriAnswer.h</key>
 		<data>
@@ -395,6 +455,10 @@
 		<key>LICENSE.txt</key>
 		<data>
 		Wzup9w8WEpOJ3TFgUHQHr9p72dU=
+		</data>
+		<key>LiveDataRTE.wo0mWq</key>
+		<data>
+		IakCfqo11F1Wq/JEbfkVk2KtSyI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -865,11 +929,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Kqiwzdpv4dElC54TZWa0RSdlBgU=
+			gcaHeSzT70sR1mdjF+S08zWc1Js=
 			</data>
 			<key>hash2</key>
 			<data>
-			IdLMuQnnV0HipKt8Qj57PolLZ4V67eZF6lPf1qihkqk=
+			p72o9S1f0V6dFGaAMMSjyYlzyePAMrP62a7WCdxBmQo=
 			</data>
 		</dict>
 		<key>Headers/LDEnum.h</key>
@@ -894,15 +958,70 @@
 			95S6dn6K6VmcIgApxWZ8jINoaMm83tknL3/Z1+/kXYI=
 			</data>
 		</dict>
+		<key>Headers/LDVoiceRoomClient+VoiceRoom.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cxVvnjP8pQkZiOa4Fyi7u+c1Rhg=
+			</data>
+			<key>hash2</key>
+			<data>
+			vx78zaA75C+IJ0+2JzBOmjPlQSs6WGVcxI8dvYtBr00=
+			</data>
+		</dict>
+		<key>Headers/LDVoiceRoomClient.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9JScUB3y1BcMVsoWZ9bVTaSdheA=
+			</data>
+			<key>hash2</key>
+			<data>
+			+kN09J8C4kbVJri4qDNRcCuKMYLwMOxjAySLrYWWDNE=
+			</data>
+		</dict>
+		<key>Headers/LDVoiceRoomCreateRoomAnswer.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RPGRVnIngNldDMkzzk5MFUih8pQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			QDlZ7HglBHdXr8N1r+NnP8XFhrp5WRWeJPW5hDF+5Ro=
+			</data>
+		</dict>
+		<key>Headers/LDVoiceRoomDelegate.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZaWD5NCgJgbWVbjOQ53wBVcV+58=
+			</data>
+			<key>hash2</key>
+			<data>
+			YQ8CxxHAwqE+6I7WRD5L9sM9EIjJlnR3bAIfcJOcdhQ=
+			</data>
+		</dict>
+		<key>Headers/LDVoiceRoomEnterRoomAnswer.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			liNTTNwz2kmvhk/UF6zf+kMd9ZA=
+			</data>
+			<key>hash2</key>
+			<data>
+			wt6soczXk1yIyvS9Yi9b/3MY+R+HjxOU9T+jfYWKvto=
+			</data>
+		</dict>
 		<key>Headers/LiveDataEngine.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HqLFQ13dDgDgB5KJPzsvrmkou6g=
+			BRZksaEcuZWUmMOanVaF4U0t7GQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			AkhUd5p9yG7lhASciCTugk16n/mIp2lLPWId6olzVLk=
+			k83/0WHhLLPcUVYUxaC8hvBTjRdDA9/WbWDqPFgig8Y=
 			</data>
 		</dict>
 		<key>Headers/RTCAudioCreateRoomAnswer.h</key>
@@ -1004,6 +1123,39 @@
 			YOsLHzofW7Gd/LHWxeH4Nw5qIiPrsJQS5SQ+JNkOF8o=
 			</data>
 		</dict>
+		<key>Headers/RTCClient+AutoTranslateAudioRoom.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zMoKPNF2xDQvfcUID3q9BrKraTI=
+			</data>
+			<key>hash2</key>
+			<data>
+			Mf5TcOcRQ1rnSUZSdvhgjKFTrZcgRh3nxX5WjKQH0vY=
+			</data>
+		</dict>
+		<key>Headers/RTCClient+VideoP2p.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NnEUrQVLy3eiyq+PG0bMW4BBa8c=
+			</data>
+			<key>hash2</key>
+			<data>
+			0K6AYBtP2jil13sY+WZeMlP3HrQsqeelfMDsbZscq/k=
+			</data>
+		</dict>
+		<key>Headers/RTCClient+VideoRoom.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BZ+XaR6FAtQD4NhCE7H2APRaDEQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			i3hAaefJRH4bOkO5hT0h72/2Dw9EUqDNrYV+pwguioU=
+			</data>
+		</dict>
 		<key>Headers/RTCClient.h</key>
 		<dict>
 			<key>hash</key>
@@ -1013,6 +1165,72 @@
 			<key>hash2</key>
 			<data>
 			jI0tsa0DgA+0PlD9tWfsdu0dWMrBMH8u/g3hj/8NYPk=
+			</data>
+		</dict>
+		<key>Headers/RTCVideoCreateRoomAnswer.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GHEVE4db2iJ0PZTHDsxFuJb3fUc=
+			</data>
+			<key>hash2</key>
+			<data>
+			g5h8FUDv2JZaUwbCPkpiFo3d7hDeA1j3tCa1I/tTFv4=
+			</data>
+		</dict>
+		<key>Headers/RTCVideoEnterRoomAnswer.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YrnGX1YTLWXHvGNckEtGqfmLclA=
+			</data>
+			<key>hash2</key>
+			<data>
+			5lBqIqrlsapA1YgPbF6/Cip7BAtCFF50ovZepwGhvbo=
+			</data>
+		</dict>
+		<key>Headers/RTCVideoEnterRoomTokenAnswer.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			S6At64NNNN6m7O88/jAp6xv662E=
+			</data>
+			<key>hash2</key>
+			<data>
+			/xL1jaUyKFpS+6EyduaxsAa6gqfNa/epXM1UkLoggl0=
+			</data>
+		</dict>
+		<key>Headers/RTCVideoProtocol.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MG7fgbMAnpjxfFvSL35okD8OcRA=
+			</data>
+			<key>hash2</key>
+			<data>
+			5BaZDBLBS4vaJqH5JrS9aCG2dB901485gBzYEpQL24I=
+			</data>
+		</dict>
+		<key>Headers/RTCVideoRoomMemberCount.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uDvsLLHG94TDapy0NX3nPmfet8U=
+			</data>
+			<key>hash2</key>
+			<data>
+			lTuKjBEdmn5V9VjAk5J6JlxUzdw4r8bAPKh0AoifS4c=
+			</data>
+		</dict>
+		<key>Headers/RTCVideoRoomMembersAnswer.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aHuOn5B5jZh/a1eoaGoijvVAD9s=
+			</data>
+			<key>hash2</key>
+			<data>
+			23nY0eWRvlYJfCDUiNkdmucVQxfSWJZkEtxReq9YmZ0=
 			</data>
 		</dict>
 		<key>Headers/RTMAttriAnswer.h</key>
@@ -1464,6 +1682,17 @@
 			<key>hash2</key>
 			<data>
 			/9iwM9LfdWjCWpiGa9krFlb32oLX+BPAsuuF7DZhEZM=
+			</data>
+		</dict>
+		<key>LiveDataRTE.wo0mWq</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IakCfqo11F1Wq/JEbfkVk2KtSyI=
+			</data>
+			<key>hash2</key>
+			<data>
+			vah2cYLSy0DgGeBMn/Y35+MLBYUgYHbpVqHbA+zQ/z4=
 			</data>
 		</dict>
 	</dict>

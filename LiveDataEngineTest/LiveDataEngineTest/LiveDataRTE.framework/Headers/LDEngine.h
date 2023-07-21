@@ -13,13 +13,14 @@
 #import "RTMDelegate.h"
 #import "IMDelegate.h"
 #import "RTCAudioProtocol.h"
-
+#import "RTCVideoProtocol.h"
+#import "LDVoiceRoomDelegate.h"
 NS_ASSUME_NONNULL_BEGIN
 
 typedef void (^LDLoginSuccessCallBack)(void);
 typedef void (^LDLoginFailCallBack)(FPNError * _Nullable error);
 
-@class RTMClient,IMClient,VAClient,RTCClient;
+@class RTMClient,IMClient,VAClient,RTCClient,LDVoiceRoomClient;
 @interface LDEngine : NSObject
 
 /// 版本号
@@ -62,21 +63,36 @@ typedef void (^LDLoginFailCallBack)(FPNError * _Nullable error);
 @property(nonatomic,weak)id <LDBaseDelegate> baseDelegate;
 
 
-/// 聊天通信（对比rtmClient具备更丰富的业务接口） ---------- 注意！rtmDelegate和imDelegate不可同时设定使用
+
+/// 聊天通信（对比rtmClient具备更丰富的业务接口）  ---------- 注意！rtmDelegate和imDelegate不可同时设定使用
 -(BOOL)setIMDelegate:(id <IMDelegate>_Nullable)imDelegate;
 @property(nonatomic,weak,readonly)id <IMDelegate> imDelegate;
 @property(nonatomic,strong)IMClient * imClient;
 
 
-/// 基础聊天通信                              ---------- 注意！rtmDelegate和imDelegate不可同时设定使用
+
+/// 基础聊天通信                               ---------- 注意！rtmDelegate和imDelegate不可同时设定使用
 -(BOOL)setRTMDelegate:(id <RTMDelegate> _Nullable)rtmDelegate;
 @property(nonatomic,weak,readonly)id <RTMDelegate> rtmDelegate;
 @property(nonatomic,strong)RTMClient * rtmClient;
 
 
-/// 实时音频代理对象
-@property(nonatomic,weak)id <RTCAudioProtocol> rtcAudioDelegate;
+
+
+/// 语聊房场景（对比rtcClient具备更丰富的业务接口） ---------- 注意！RTCAudioProtocol，RTCAudioProtocol和LDVoiceRoomDelegate不可同时设定使用
+-(BOOL)setLDVoiceRoomDelegate:(id <LDVoiceRoomDelegate> _Nullable)voiceRoomDelegate;
+@property(nonatomic,weak,readonly)id <LDVoiceRoomDelegate> voiceRoomDelegate;
+@property(nonatomic,strong)LDVoiceRoomClient * voiceRoomClient;
+
+
+
+/// 基础实时音视频                              ---------- 注意！RTCAudioProtocol，RTCAudioProtocol和LDVoiceRoomDelegate不可同时设定使用
+-(BOOL)setRtcAudioDelegate:(id <RTCAudioProtocol> _Nullable)rtcAudioDelegate;
+-(BOOL)setRtcVideoDelegate:(id <RTCVideoProtocol> _Nullable)rtcVideoDelegate;
+@property(nonatomic,weak,readonly)id <RTCAudioProtocol> rtcAudioDelegate;
+@property(nonatomic,weak,readonly)id <RTCVideoProtocol> rtcVideoDelegate;
 @property(nonatomic,strong)RTCClient * rtcClient;
+
 
 
 /// 增值服务（审核，翻译等）

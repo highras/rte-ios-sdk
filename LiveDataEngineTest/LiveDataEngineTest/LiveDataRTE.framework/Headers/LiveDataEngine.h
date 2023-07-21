@@ -2,10 +2,7 @@
 
 
 
-
 //版本 iOS_v1.0.0
-
-
 
 
 //1.在TARGETS->Build Settings->Other Linker Flags （选中ALL视图）中添加-ObjC，字母O和C大写，符号“-”请勿忽略
@@ -51,8 +48,16 @@
 //RTC
 #import <LiveDataRTE/RTCClient+AudioRoom.h>
 #import <LiveDataRTE/RTCClient+AudioP2p.h>
+#import <LiveDataRTE/RTCClient+VideoRoom.h>
+#import <LiveDataRTE/RTCClient+VideoP2p.h>
+#import <LiveDataRTE/RTCClient+AutoTranslateAudioRoom.h>
 
 
 //VA 增值服务
 #import <LiveDataRTE/VAClient+Services.h>
+
+
+//语聊房
+#import <LiveDataRTE/LDVoiceRoomClient.h>
+#import <LiveDataRTE/LDVoiceRoomClient+VoiceRoom.h>
 

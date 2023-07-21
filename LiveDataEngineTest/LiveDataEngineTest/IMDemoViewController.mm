@@ -26,7 +26,6 @@
     
     
     self.testUid = 666;
-    NSLog(@"self.testUid  %lld",self.testUid);
     
     if (number == 0) {
         

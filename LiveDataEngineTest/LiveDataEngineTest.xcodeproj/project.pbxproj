@@ -30,6 +30,7 @@
 		568A29C52988EB12006EA48D /* LiveDataEngineTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 568A29C42988EB12006EA48D /* LiveDataEngineTestUITests.m */; };
 		568A29C72988EB12006EA48D /* LiveDataEngineTestUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 568A29C62988EB12006EA48D /* LiveDataEngineTestUITestsLaunchTests.m */; };
 		56B2C70929ED2826007210F1 /* NSObject+Description.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B2C70829ED2826007210F1 /* NSObject+Description.m */; };
+		56ED9A312A4EB6350085ADA2 /* UIImage+RTM.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED9A302A4EB6350085ADA2 /* UIImage+RTM.m */; };
 		56F8D6532A24478400CD7A07 /* LiveDataRTE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F8D6522A24478400CD7A07 /* LiveDataRTE.framework */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +101,8 @@
 		569177CD29ED51E5006BAC9F /* LiveDataLibs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LiveDataLibs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B2C70729ED2822007210F1 /* NSObject+Description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Description.h"; sourceTree = "<group>"; };
 		56B2C70829ED2826007210F1 /* NSObject+Description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Description.m"; sourceTree = "<group>"; };
+		56ED9A2F2A4EB6340085ADA2 /* UIImage+RTM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RTM.h"; sourceTree = "<group>"; };
+		56ED9A302A4EB6350085ADA2 /* UIImage+RTM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RTM.m"; sourceTree = "<group>"; };
 		56F8D6522A24478400CD7A07 /* LiveDataRTE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LiveDataRTE.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -164,6 +167,8 @@
 		568A29922988EB10006EA48D = {
 			isa = PBXGroup;
 			children = (
+				56ED9A2F2A4EB6340085ADA2 /* UIImage+RTM.h */,
+				56ED9A302A4EB6350085ADA2 /* UIImage+RTM.m */,
 				5681109829E6564B001ED648 /* MBProgressHUD.h */,
 				5681109929E6564B001ED648 /* MBProgressHUD.m */,
 				5681107429E6563D001ED648 /* Masonry */,
@@ -366,6 +371,7 @@
 				568A29A62988EB10006EA48D /* IMDemoViewController.mm in Sources */,
 				568110A029E69749001ED648 /* LDToken.mm in Sources */,
 				5681109229E6563D001ED648 /* MASLayoutConstraint.m in Sources */,
+				56ED9A312A4EB6350085ADA2 /* UIImage+RTM.m in Sources */,
 				568A29A02988EB10006EA48D /* AppDelegate.m in Sources */,
 				5681109729E6563D001ED648 /* MASViewAttribute.m in Sources */,
 				5681109329E6563D001ED648 /* NSArray+MASAdditions.m in Sources */,
