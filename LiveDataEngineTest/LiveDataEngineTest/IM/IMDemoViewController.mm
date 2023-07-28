@@ -30,9 +30,9 @@
     NSLog(@"=====================%@=====================",name);
     
     
-    self.projectId = 11000001;
-    self.projectEndpoint = @"161.189.171.91:13321";
-    self.projectToken = @"cXdlcnR5";
+    self.projectId = 0;
+    self.projectEndpoint = nil;
+    self.projectToken = @"";
     
     self.testUid = 666;
     
