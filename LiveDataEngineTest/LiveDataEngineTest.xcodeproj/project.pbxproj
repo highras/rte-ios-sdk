@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		567E9D642A72160F00CE122F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567E9D632A72160F00CE122F /* MainViewController.m */; };
+		567E9D692A7218BF00CE122F /* VoiceRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567E9D652A7218BF00CE122F /* VoiceRoomViewController.m */; };
+		567E9D6A2A7218BF00CE122F /* VoiceRoomViewController+Delegate_UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 567E9D662A7218BF00CE122F /* VoiceRoomViewController+Delegate_UI.m */; };
+		567E9D6D2A7218DA00CE122F /* zhangsheng.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 567E9D6B2A7218D900CE122F /* zhangsheng.mp3 */; };
+		567E9D6E2A7218DA00CE122F /* newBgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 567E9D6C2A7218DA00CE122F /* newBgm.mp3 */; };
 		5681108E29E6563D001ED648 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5681107629E6563D001ED648 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		5681108F29E6563D001ED648 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5681107F29E6563D001ED648 /* ViewController+MASAdditions.m */; };
 		5681109029E6563D001ED648 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5681108329E6563D001ED648 /* MASCompositeConstraint.m */; };
@@ -52,6 +57,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		567E9D622A72160F00CE122F /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		567E9D632A72160F00CE122F /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		567E9D652A7218BF00CE122F /* VoiceRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceRoomViewController.m; sourceTree = "<group>"; };
+		567E9D662A7218BF00CE122F /* VoiceRoomViewController+Delegate_UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VoiceRoomViewController+Delegate_UI.m"; sourceTree = "<group>"; };
+		567E9D672A7218BF00CE122F /* VoiceRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceRoomViewController.h; sourceTree = "<group>"; };
+		567E9D682A7218BF00CE122F /* VoiceRoomViewController+Delegate_UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VoiceRoomViewController+Delegate_UI.h"; sourceTree = "<group>"; };
+		567E9D6B2A7218D900CE122F /* zhangsheng.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zhangsheng.mp3; sourceTree = "<group>"; };
+		567E9D6C2A7218DA00CE122F /* newBgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = newBgm.mp3; sourceTree = "<group>"; };
 		5681107529E6563D001ED648 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		5681107629E6563D001ED648 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		5681107729E6563D001ED648 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -132,9 +145,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		567E9D602A72089700CE122F /* IM */ = {
+			isa = PBXGroup;
+			children = (
+				568A29A42988EB10006EA48D /* IMDemoViewController.h */,
+				568A29A52988EB10006EA48D /* IMDemoViewController.mm */,
+				5681109B29E66718001ED648 /* IMDemoViewController+Delegate.h */,
+				5681109C29E66718001ED648 /* IMDemoViewController+Delegate.mm */,
+			);
+			path = IM;
+			sourceTree = "<group>";
+		};
+		567E9D612A72089F00CE122F /* VoiceRoom */ = {
+			isa = PBXGroup;
+			children = (
+				567E9D6C2A7218DA00CE122F /* newBgm.mp3 */,
+				567E9D6B2A7218D900CE122F /* zhangsheng.mp3 */,
+				567E9D672A7218BF00CE122F /* VoiceRoomViewController.h */,
+				567E9D652A7218BF00CE122F /* VoiceRoomViewController.m */,
+				567E9D682A7218BF00CE122F /* VoiceRoomViewController+Delegate_UI.h */,
+				567E9D662A7218BF00CE122F /* VoiceRoomViewController+Delegate_UI.m */,
+			);
+			path = VoiceRoom;
+			sourceTree = "<group>";
+		};
 		5681107429E6563D001ED648 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
+				56B2C70729ED2822007210F1 /* NSObject+Description.h */,
+				56B2C70829ED2826007210F1 /* NSObject+Description.m */,
+				56ED9A2F2A4EB6340085ADA2 /* UIImage+RTM.h */,
+				56ED9A302A4EB6350085ADA2 /* UIImage+RTM.m */,
+				5681109829E6564B001ED648 /* MBProgressHUD.h */,
+				5681109929E6564B001ED648 /* MBProgressHUD.m */,
 				5681107529E6563D001ED648 /* MASCompositeConstraint.h */,
 				5681107629E6563D001ED648 /* NSLayoutConstraint+MASDebugAdditions.m */,
 				5681107729E6563D001ED648 /* MASConstraint+Private.h */,
@@ -167,10 +210,6 @@
 		568A29922988EB10006EA48D = {
 			isa = PBXGroup;
 			children = (
-				56ED9A2F2A4EB6340085ADA2 /* UIImage+RTM.h */,
-				56ED9A302A4EB6350085ADA2 /* UIImage+RTM.m */,
-				5681109829E6564B001ED648 /* MBProgressHUD.h */,
-				5681109929E6564B001ED648 /* MBProgressHUD.m */,
 				5681107429E6563D001ED648 /* Masonry */,
 				568A299D2988EB10006EA48D /* LiveDataEngineTest */,
 				568A29B92988EB12006EA48D /* LiveDataEngineTestTests */,
@@ -197,14 +236,12 @@
 				568110D829E82008001ED648 /* image123.jpg */,
 				568A299E2988EB10006EA48D /* AppDelegate.h */,
 				568A299F2988EB10006EA48D /* AppDelegate.m */,
-				56B2C70729ED2822007210F1 /* NSObject+Description.h */,
-				56B2C70829ED2826007210F1 /* NSObject+Description.m */,
+				567E9D622A72160F00CE122F /* MainViewController.h */,
+				567E9D632A72160F00CE122F /* MainViewController.m */,
 				5681109E29E69748001ED648 /* LDToken.h */,
 				5681109F29E69749001ED648 /* LDToken.mm */,
-				568A29A42988EB10006EA48D /* IMDemoViewController.h */,
-				568A29A52988EB10006EA48D /* IMDemoViewController.mm */,
-				5681109B29E66718001ED648 /* IMDemoViewController+Delegate.h */,
-				5681109C29E66718001ED648 /* IMDemoViewController+Delegate.mm */,
+				567E9D602A72089700CE122F /* IM */,
+				567E9D612A72089F00CE122F /* VoiceRoom */,
 				568A29AA2988EB12006EA48D /* Assets.xcassets */,
 				568A29AC2988EB12006EA48D /* LaunchScreen.storyboard */,
 				568A29AF2988EB12006EA48D /* Info.plist */,
@@ -341,7 +378,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				567E9D6E2A7218DA00CE122F /* newBgm.mp3 in Resources */,
 				568A29AE2988EB12006EA48D /* LaunchScreen.storyboard in Resources */,
+				567E9D6D2A7218DA00CE122F /* zhangsheng.mp3 in Resources */,
 				568110D929E82008001ED648 /* image123.jpg in Resources */,
 				568A29AB2988EB12006EA48D /* Assets.xcassets in Resources */,
 			);
@@ -374,15 +413,18 @@
 				56ED9A312A4EB6350085ADA2 /* UIImage+RTM.m in Sources */,
 				568A29A02988EB10006EA48D /* AppDelegate.m in Sources */,
 				5681109729E6563D001ED648 /* MASViewAttribute.m in Sources */,
+				567E9D642A72160F00CE122F /* MainViewController.m in Sources */,
 				5681109329E6563D001ED648 /* NSArray+MASAdditions.m in Sources */,
 				5681109029E6563D001ED648 /* MASCompositeConstraint.m in Sources */,
 				56B2C70929ED2826007210F1 /* NSObject+Description.m in Sources */,
+				567E9D692A7218BF00CE122F /* VoiceRoomViewController.m in Sources */,
 				5681109129E6563D001ED648 /* MASConstraintMaker.m in Sources */,
 				5681109429E6563D001ED648 /* View+MASAdditions.m in Sources */,
 				5681108F29E6563D001ED648 /* ViewController+MASAdditions.m in Sources */,
 				568A29B12988EB12006EA48D /* main.m in Sources */,
 				5681109629E6563D001ED648 /* MASViewConstraint.m in Sources */,
 				5681109D29E66718001ED648 /* IMDemoViewController+Delegate.mm in Sources */,
+				567E9D6A2A7218BF00CE122F /* VoiceRoomViewController+Delegate_UI.m in Sources */,
 				5681108E29E6563D001ED648 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				5681109529E6563D001ED648 /* MASConstraint.m in Sources */,
 				5681109A29E6564B001ED648 /* MBProgressHUD.m in Sources */,
@@ -559,7 +601,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LiveDataEngineTest/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "摄像头权限";
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "麦克风权限";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "麦克风权限申请";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -594,7 +636,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LiveDataEngineTest/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "摄像头权限";
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "麦克风权限";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "麦克风权限申请";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;

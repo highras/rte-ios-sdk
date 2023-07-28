@@ -20,8 +20,6 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)rtcKickOutVoiceRoomNotificationWithRoomId:(int64_t)roomId userId:(int64_t)userId;
 //被邀请进入房间
 -(void)rtcInviteIntoVoiceRoomNotificationWithRoomId:(int64_t)roomId userId:(int64_t)userId;
-//被强制拉入房间结果
--(void)rtcForceInviteIntoVoiceRoomNotificationWithRoomId:(int64_t)roomId error:(FPNError * _Nullable)error;
 //权限命令通知
 -(void)rtcPushVoiceAdminCommand:(NSArray*)uids command:(int)type;
 ////语音房间自动翻译

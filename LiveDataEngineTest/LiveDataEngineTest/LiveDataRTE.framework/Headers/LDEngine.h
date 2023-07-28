@@ -79,14 +79,14 @@ typedef void (^LDLoginFailCallBack)(FPNError * _Nullable error);
 
 
 
-/// 语聊房场景（对比rtcClient具备更丰富的业务接口） ---------- 注意！RTCAudioProtocol，RTCAudioProtocol和LDVoiceRoomDelegate不可同时设定使用
+/// 语聊房场景（对比rtcClient具备更丰富的业务接口） ---------- 注意！RTCAudioProtocol，RTCVideoProtocol和LDVoiceRoomDelegate不可同时设定使用
 -(BOOL)setLDVoiceRoomDelegate:(id <LDVoiceRoomDelegate> _Nullable)voiceRoomDelegate;
 @property(nonatomic,weak,readonly)id <LDVoiceRoomDelegate> voiceRoomDelegate;
 @property(nonatomic,strong)LDVoiceRoomClient * voiceRoomClient;
 
 
 
-/// 基础实时音视频                              ---------- 注意！RTCAudioProtocol，RTCAudioProtocol和LDVoiceRoomDelegate不可同时设定使用
+/// 基础实时音视频                              ---------- 注意！RTCAudioProtocol，RTCVideoProtocol和LDVoiceRoomDelegate不可同时设定使用
 -(BOOL)setRtcAudioDelegate:(id <RTCAudioProtocol> _Nullable)rtcAudioDelegate;
 -(BOOL)setRtcVideoDelegate:(id <RTCVideoProtocol> _Nullable)rtcVideoDelegate;
 @property(nonatomic,weak,readonly)id <RTCAudioProtocol> rtcAudioDelegate;

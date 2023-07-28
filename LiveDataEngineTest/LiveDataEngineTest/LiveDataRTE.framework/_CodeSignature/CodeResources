@@ -178,7 +178,7 @@
 		</data>
 		<key>Headers/LDEngine.h</key>
 		<data>
-		gcaHeSzT70sR1mdjF+S08zWc1Js=
+		0dzwVbXCP5OyYwX7r1zwbmIT7Tw=
 		</data>
 		<key>Headers/LDEnum.h</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>Headers/LDVoiceRoomDelegate.h</key>
 		<data>
-		ZaWD5NCgJgbWVbjOQ53wBVcV+58=
+		L5YGkM9r52dIvBotQteXxwWiyAY=
 		</data>
 		<key>Headers/LDVoiceRoomEnterRoomAnswer.h</key>
 		<data>
@@ -226,7 +226,7 @@
 		</data>
 		<key>Headers/RTCAudioProtocol.h</key>
 		<data>
-		dQdplzZE9i1e+Fb98ZYxEyR5qS8=
+		SmV5WGv2ajhX3TkZJiPLVpl87Os=
 		</data>
 		<key>Headers/RTCAudioRoomMemberCount.h</key>
 		<data>
@@ -929,11 +929,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gcaHeSzT70sR1mdjF+S08zWc1Js=
+			0dzwVbXCP5OyYwX7r1zwbmIT7Tw=
 			</data>
 			<key>hash2</key>
 			<data>
-			p72o9S1f0V6dFGaAMMSjyYlzyePAMrP62a7WCdxBmQo=
+			qhgjiARhpfTO5cKfX2d1QkwSZ7E2h0ckUpo/fIDjfxQ=
 			</data>
 		</dict>
 		<key>Headers/LDEnum.h</key>
@@ -995,11 +995,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZaWD5NCgJgbWVbjOQ53wBVcV+58=
+			L5YGkM9r52dIvBotQteXxwWiyAY=
 			</data>
 			<key>hash2</key>
 			<data>
-			YQ8CxxHAwqE+6I7WRD5L9sM9EIjJlnR3bAIfcJOcdhQ=
+			l/U5YEqKK0B2LotMmvSav66m9JbN31EwhBBZUDchovk=
 			</data>
 		</dict>
 		<key>Headers/LDVoiceRoomEnterRoomAnswer.h</key>
@@ -1061,11 +1061,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dQdplzZE9i1e+Fb98ZYxEyR5qS8=
+			SmV5WGv2ajhX3TkZJiPLVpl87Os=
 			</data>
 			<key>hash2</key>
 			<data>
-			wBhhg9BN7hilPDtFqet/ebXUzVADwNqnb0jlrcYi7EY=
+			NTkErxpMUPgF0QIEyOLJVAiXL4v9fW7KRr5zZ6Kxa98=
 			</data>
 		</dict>
 		<key>Headers/RTCAudioRoomMemberCount.h</key>

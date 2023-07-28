@@ -6,9 +6,7 @@
 //
 
 #import "AppDelegate.h"
-#import "IMDemoViewController.h"
-//#import "RTMDemoViewController.h"
-//#import "RTCDemoViewController.h"
+#import "MainViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,9 +17,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:[IMDemoViewController new]];
-//    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:[RTMDemoViewController new]];
-//    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:[RTCDemoViewController new]];
+    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:[MainViewController new]];
     [self.window setRootViewController:nav];
     [self.window makeKeyAndVisible];
     
