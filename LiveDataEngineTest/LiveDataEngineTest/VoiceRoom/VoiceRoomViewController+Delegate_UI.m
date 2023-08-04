@@ -196,7 +196,7 @@
     hud.label.textColor = [UIColor whiteColor];
     hud.label.numberOfLines = 0;
     hud.removeFromSuperViewOnHide = YES;
-    [hud hideAnimated:YES afterDelay:0.8];
+    [hud hideAnimated:YES afterDelay:2];
 }
 - (void)showLoadHudMessage:(NSString*)message{
     [self hiddenHud];

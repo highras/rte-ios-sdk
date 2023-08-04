@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5632677A2A7C92C100CA19CA /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563267782A7C92C100CA19CA /* VideoViewController.m */; };
+		5632677E2A7C93C800CA19CA /* VideoViewController+Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5632677D2A7C93C800CA19CA /* VideoViewController+Delegate.m */; };
 		567E9D642A72160F00CE122F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567E9D632A72160F00CE122F /* MainViewController.m */; };
 		567E9D692A7218BF00CE122F /* VoiceRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567E9D652A7218BF00CE122F /* VoiceRoomViewController.m */; };
 		567E9D6A2A7218BF00CE122F /* VoiceRoomViewController+Delegate_UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 567E9D662A7218BF00CE122F /* VoiceRoomViewController+Delegate_UI.m */; };
@@ -57,6 +59,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		563267782A7C92C100CA19CA /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		563267792A7C92C100CA19CA /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		5632677C2A7C93C800CA19CA /* VideoViewController+Delegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoViewController+Delegate.h"; sourceTree = "<group>"; };
+		5632677D2A7C93C800CA19CA /* VideoViewController+Delegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VideoViewController+Delegate.m"; sourceTree = "<group>"; };
 		567E9D622A72160F00CE122F /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		567E9D632A72160F00CE122F /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		567E9D652A7218BF00CE122F /* VoiceRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceRoomViewController.m; sourceTree = "<group>"; };
@@ -145,6 +151,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5632677B2A7C92C400CA19CA /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				563267792A7C92C100CA19CA /* VideoViewController.h */,
+				563267782A7C92C100CA19CA /* VideoViewController.m */,
+				5632677C2A7C93C800CA19CA /* VideoViewController+Delegate.h */,
+				5632677D2A7C93C800CA19CA /* VideoViewController+Delegate.m */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
 		567E9D602A72089700CE122F /* IM */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,6 +257,7 @@
 				567E9D632A72160F00CE122F /* MainViewController.m */,
 				5681109E29E69748001ED648 /* LDToken.h */,
 				5681109F29E69749001ED648 /* LDToken.mm */,
+				5632677B2A7C92C400CA19CA /* Video */,
 				567E9D602A72089700CE122F /* IM */,
 				567E9D612A72089F00CE122F /* VoiceRoom */,
 				568A29AA2988EB12006EA48D /* Assets.xcassets */,
@@ -409,6 +427,7 @@
 			files = (
 				568A29A62988EB10006EA48D /* IMDemoViewController.mm in Sources */,
 				568110A029E69749001ED648 /* LDToken.mm in Sources */,
+				5632677A2A7C92C100CA19CA /* VideoViewController.m in Sources */,
 				5681109229E6563D001ED648 /* MASLayoutConstraint.m in Sources */,
 				56ED9A312A4EB6350085ADA2 /* UIImage+RTM.m in Sources */,
 				568A29A02988EB10006EA48D /* AppDelegate.m in Sources */,
@@ -424,6 +443,7 @@
 				568A29B12988EB12006EA48D /* main.m in Sources */,
 				5681109629E6563D001ED648 /* MASViewConstraint.m in Sources */,
 				5681109D29E66718001ED648 /* IMDemoViewController+Delegate.mm in Sources */,
+				5632677E2A7C93C800CA19CA /* VideoViewController+Delegate.m in Sources */,
 				567E9D6A2A7218BF00CE122F /* VoiceRoomViewController+Delegate_UI.m in Sources */,
 				5681108E29E6563D001ED648 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				5681109529E6563D001ED648 /* MASConstraint.m in Sources */,

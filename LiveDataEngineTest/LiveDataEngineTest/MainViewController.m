@@ -9,6 +9,7 @@
 #import "Masonry.h"
 #import "IMDemoViewController.h"
 #import "VoiceRoomViewController.h"
+#import "VideoViewController.h"
 @interface MainViewController ()
 
 @end
@@ -49,6 +50,8 @@
         make.height.equalTo(@(50));
         
     }];
+    
+    
 }
 -(void)_imClick{
     
@@ -64,5 +67,11 @@
     [self presentViewController:vc animated:YES completion:nil];
     
 }
-
+-(void)_videoRoomClick{
+    
+    VideoViewController * vc = [VideoViewController new] ;
+    vc.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:vc animated:YES completion:nil];
+    
+}
 @end

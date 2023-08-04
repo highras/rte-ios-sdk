@@ -61,15 +61,10 @@ typedef NS_ENUM(NSInteger, LDInviteGrantType) {
     
 };
 
-
-
-
-
-
 typedef NS_ENUM(NSInteger, LDCaptureVideoLevel){
     
-    LDCaptureVideoDefault = 1,
-    LDCaptureVideoMiddle = 2,
-    LDCaptureVideoHigh = 3,
+    LDCaptureVideoDefault = 1,// 320 * 240  15f
+    LDCaptureVideoMiddle = 2, // 320 * 240  30f
+    LDCaptureVideoHigh = 3,   // 640 * 480  30f
     
 };
