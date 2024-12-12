@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "LDBaseDelegate.h"
-#import "FPNError.h"
+#import <Fpnn/FPNError.h>
 #import "LDEnum.h"
 #import "LDClientConfig.h"
 #import "RTMDelegate.h"

@@ -16,12 +16,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 //麦克风开关 默认关闭 断线重连重新进入房间后会恢复默认状态
 -(BOOL)openVoiceRoomMicrophone:(BOOL)open;
-//扬声器开关 默认开启 断线重连重新进入房间后会恢复默认状态
--(BOOL)openVoiceRoomSpeaker:(BOOL)open;
+//声音开关 默认开启 断线重连重新进入房间后会恢复默认状态
+-(BOOL)openVoiceRoomSound:(BOOL)open;
 //发送上传数据开关 默认开启
 -(void)setOpenUploadVoiceData:(BOOL)open;
-
-
+//设置扬声器输出 默认扬声器 YES扬声器 NO听筒   接入耳机时设置无效
+-(void)setAudioRouteToSpeaker:(BOOL)isSpeaker;
 /// 播放音效
 /// - Parameters:
 ///   - soundId: 音效id
@@ -50,12 +50,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// 播放背景音乐
 /// - Parameters:
 ///   - mp3Path: 路径
-///   - cyclePlay: 单曲循环
+///   - loopCount: 循环次数  -1为无限循环
 ///   - startTime: 起始播放时间 单位秒
-///   - playStart: 播放结果
-///   - playFinish:不开启cyclePlay播放完成后触发   开启cyclePlay不会触发会一直循环
+///   - playStart: 每一次循环都会触发
+///   - playFinish:每一次循环触发
 -(void)playBGMMusic:(NSString*)mp3Path
-          cyclePlay:(BOOL)cyclePlay
+          loopCount:(int64_t)loopCount
           startTime:(int)startTime
           playStart:(void(^)(BOOL successPlay,int allTimeSecond))playStart
          playFinish:(void(^)(void))playFinish;

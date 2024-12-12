@@ -5,7 +5,8 @@
 //  Created by ld_zsl on 2023/2/3.
 //
 
-#import "FPNNAnswer.h"
+#import <Fpnn/FPNNAnswer.h>
+
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -8,8 +8,7 @@
 #import <Foundation/Foundation.h>
 #import "IMSendAnswer.h"
 #import "LDEngine.h"
-#import "FPNError.h"
-
+#import <Fpnn/FPNError.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

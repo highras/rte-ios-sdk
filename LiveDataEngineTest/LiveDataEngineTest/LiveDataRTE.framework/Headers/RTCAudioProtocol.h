@@ -2,6 +2,7 @@
 
 
 #import <Foundation/Foundation.h>
+#import "LDEnum.h"
 @class FPNError;
 NS_ASSUME_NONNULL_BEGIN
 
@@ -22,8 +23,29 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)rtcInviteIntoVoiceRoomNotificationWithRoomId:(int64_t)roomId userId:(int64_t)userId;
 //权限命令通知
 -(void)rtcPushVoiceAdminCommand:(NSArray*)uids command:(int)type;
-////语音房间自动翻译
--(void)rtcPushTranslateResultWithUserId:(int64_t)uid language:(NSString *)language text:(NSString *)text;
+//return current volume
+-(void)rtcMicrophoneVolume:(int)volume;
+//房间用户当前音量反馈 包含自己
+-(void)rtcRoomUsersVolume:(NSDictionary *)volumes;//userId : volume(范围0-100)
+
+//自动翻译房间 翻译 + 识别结果
+-(void)rtcPushTranslateResultWithUserId:(int64_t)uid
+                                 roomId:(int64_t)roomId
+                                startTs:(int64_t)startTs
+                                  endTs:(int64_t)endTs
+                                   text:(NSString *)text
+                               language:(NSString *)language
+                                   type:(LDTranslateAsrType)type;
+
+
+//自动翻译房间 TTS 结果  data 为MP3格式
+-(void)rtcPushTTSResultWithUserId:(int64_t)uid
+                           roomId:(int64_t)roomId
+                           taskId:(int64_t)taskId
+                        timestamp:(int64_t)timestamp
+                             data:(NSData *)data
+                         language:(NSString *)language;
+
 
 
 //语音单聊

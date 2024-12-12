@@ -15,10 +15,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// 添加推送设备
 /// - Parameters:
 ///   - deviceToken: token
+///   - tag 一个rtm项目对应多个推送项目时，所使用的推送项目的 tag
 ///   - timeout: 请求超时时间 秒
 ///   - successCallback: 成功回调
 ///   - failCallback: 失败回调
 -(void)addDeviceWithDeviceToken:(NSString * _Nonnull)deviceToken
+                            tag:(NSString * _Nullable)tag
                         timeout:(int)timeout
                         success:(void(^)(void))successCallback
                            fail:(IMAnswerFailCallBack)failCallback;

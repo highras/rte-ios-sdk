@@ -148,7 +148,8 @@
 -(void)_openVoiceRoomSpeaker{
     
     self.openPlay.selected = !self.openPlay.selected;
-    [self.engine.voiceRoomClient openVoiceRoomSpeaker:self.openPlay.selected];
+    
+    [self.engine.voiceRoomClient openVoiceRoomSound:self.openPlay.selected];
     
 }
 
@@ -171,8 +172,7 @@
     
     
     NSString * path = [[NSBundle mainBundle] pathForResource:@"newBgm" ofType:@"mp3"];
-    
-    [self.engine.voiceRoomClient playBGMMusic:path cyclePlay:YES startTime:0 playStart:^(BOOL successPlay, int allTimeSecond) {
+    [self.engine.voiceRoomClient playBGMMusic:path loopCount:1 startTime:0 playStart:^(BOOL successPlay, int allTimeSecond) {
       
         
         NSLog(@"successPlay =  %d  time = %d",successPlay,allTimeSecond);

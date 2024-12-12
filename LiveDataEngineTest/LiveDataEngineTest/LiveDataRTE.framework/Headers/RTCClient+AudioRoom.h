@@ -46,12 +46,16 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,assign,readonly)int64_t voiceActiveRoom;
 -(BOOL)setCurrentVoiceActiveRoom:(int64_t)voiceActiveRoom;
 
-//默认闭麦（不会持久化 重新设置活跃房间会自动恢复默认闭麦状态）
-@property(nonatomic,assign)BOOL isOpenVoiceSpeak;
-//默认播放房间声音（不会持久化 重新设置活跃房间会自动恢复默认状态）
-@property(nonatomic,assign)BOOL isOpenVoicePlay;
+
+//麦克风开关 默认关闭 断线重连重新进入房间后会恢复默认状态
+-(BOOL)openMicrophone:(BOOL)open;
+//声音开关 默认开启 断线重连重新进入房间后会恢复默认状态
+-(BOOL)openSound:(BOOL)open;
 
 
+
+//设置扬声器输出 默认扬声器 YES扬声器 NO听筒   接入耳机时设置无效
+-(void)setAudioRouteToSpeaker:(BOOL)isSpeaker;
 //---------------------------------------------------------------------------------------------------
 
 

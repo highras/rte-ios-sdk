@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface RTCClient (AutoTranslateAudioRoom)
 /// 创建自动翻译语音房间 创建成功后会自动加入（有可能会加入失败）
+/// @param language 自己的语言 必传
 /// @param roomId 房间id int64
 /// @param timeout 请求超时时间 秒
 /// @param successCallback 成功回调
@@ -26,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 进入语音房间成功后需要设置 voiceActiveRoom 设置当前活跃房间 多房间只会播放和发送当前活跃房间的语音
 /// @param roomId 房间ID int64
-/// @param language 翻译目标语言
+/// @param language 自己的语言 必传
 /// @param timeout 请求超时时间 秒
 /// @param successCallback 成功回调
 /// @param failCallback 失败回调
@@ -35,6 +36,12 @@ NS_ASSUME_NONNULL_BEGIN
                                      timeout:(int)timeout
                                      success:(void(^)(RTCAudioEnterRoomAnswer * answer))successCallback
                                         fail:(RTCAnswerFailCallBack)failCallback;
+
+
+
+//mp3 转单声道 + 固定采样率   16000 or 48000
++(NSData*)getPcmData:(NSString*)mp3Path sampleRate:(int)sampleRate;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -39,6 +39,7 @@
 		56B2C70929ED2826007210F1 /* NSObject+Description.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B2C70829ED2826007210F1 /* NSObject+Description.m */; };
 		56ED9A312A4EB6350085ADA2 /* UIImage+RTM.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED9A302A4EB6350085ADA2 /* UIImage+RTM.m */; };
 		56F8D6532A24478400CD7A07 /* LiveDataRTE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F8D6522A24478400CD7A07 /* LiveDataRTE.framework */; };
+		84F65E1C2C32A7AC007B60C9 /* Fpnn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F65E1B2C32A7AB007B60C9 /* Fpnn.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +124,7 @@
 		56ED9A2F2A4EB6340085ADA2 /* UIImage+RTM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RTM.h"; sourceTree = "<group>"; };
 		56ED9A302A4EB6350085ADA2 /* UIImage+RTM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RTM.m"; sourceTree = "<group>"; };
 		56F8D6522A24478400CD7A07 /* LiveDataRTE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LiveDataRTE.framework; sourceTree = "<group>"; };
+		84F65E1B2C32A7AB007B60C9 /* Fpnn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fpnn.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F65E1C2C32A7AC007B60C9 /* Fpnn.framework in Frameworks */,
 				56F8D6532A24478400CD7A07 /* LiveDataRTE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				56F8D6522A24478400CD7A07 /* LiveDataRTE.framework */,
+				84F65E1B2C32A7AB007B60C9 /* Fpnn.framework */,
 				568110D829E82008001ED648 /* image123.jpg */,
 				568A299E2988EB10006EA48D /* AppDelegate.h */,
 				568A299F2988EB10006EA48D /* AppDelegate.m */,

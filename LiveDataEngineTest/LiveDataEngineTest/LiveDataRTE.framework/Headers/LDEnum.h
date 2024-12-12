@@ -19,7 +19,7 @@ typedef NS_ENUM(NSInteger, LDConversationType) {
     
     P2p          = 1,//IM+RTM
     Group        = 2,//IM+RTM
-    Room         = 3,//RTM
+    Room         = 3,//IM+RTM
     Broadcast    = 4,//RTM
     
 };
@@ -42,6 +42,12 @@ typedef NS_ENUM(NSInteger, LDImMessageType) {
     
 };
 
+typedef NS_ENUM(NSInteger, LDTranslateAsrType) {
+    AsrTmp = 0,
+    AsrFinal = 1,
+    TranslateTmp = 2,
+    TranslateFinal = 3
+};
 
 //group:允许任何人，需要审批，拒绝任何人
 //room: 允许任何人，密码
