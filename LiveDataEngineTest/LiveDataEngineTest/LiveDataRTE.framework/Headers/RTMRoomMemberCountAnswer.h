@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface RTMRoomMemberCountAnswer : RTMBaseAnswer
-@property(nonatomic,assign)NSDictionary <NSString*,NSNumber* >* countDictionary; 
+@property(nonatomic,strong)NSDictionary <NSString*,NSNumber* >* countDictionary; 
 @end
 
 NS_ASSUME_NONNULL_END

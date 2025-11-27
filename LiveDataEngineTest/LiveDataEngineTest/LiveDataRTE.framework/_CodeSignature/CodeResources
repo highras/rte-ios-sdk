@@ -256,6 +256,18 @@
 		<data>
 		YRNv8GpRU/oeECFOQC1g4TJBdM4=
 		</data>
+		<key>Headers/RTCCustomOpusManager.h</key>
+		<data>
+		i/b0Tm9v3M7e1wxGS0F9hJwK41U=
+		</data>
+		<key>Headers/RTCOpusManager.h</key>
+		<data>
+		dJL+/XCYTVWEEjTIsdhkvXQAZmY=
+		</data>
+		<key>Headers/RTCRnNoise.h</key>
+		<data>
+		Aszrl1iAAw3T/T2H/0Iy2HS1tH4=
+		</data>
 		<key>Headers/RTCVideoCreateRoomAnswer.h</key>
 		<data>
 		GHEVE4db2iJ0PZTHDsxFuJb3fUc=
@@ -390,7 +402,7 @@
 		</data>
 		<key>Headers/RTMRoomMemberCountAnswer.h</key>
 		<data>
-		zg9P7ViECme+fWJjTX62hovk5pw=
+		utiMZ+k3S9wXsfemvKqKj6t5T70=
 		</data>
 		<key>Headers/RTMSendAnswer.h</key>
 		<data>
@@ -442,7 +454,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		s6sdZFEL6Eskx205UJG+7N01k90=
+		i9mrda0UI5BZ5ZR1U92e6Qw1/WM=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -1144,6 +1156,39 @@
 			jI0tsa0DgA+0PlD9tWfsdu0dWMrBMH8u/g3hj/8NYPk=
 			</data>
 		</dict>
+		<key>Headers/RTCCustomOpusManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			i/b0Tm9v3M7e1wxGS0F9hJwK41U=
+			</data>
+			<key>hash2</key>
+			<data>
+			mnhW2Oai86Ms8F/hYYdYz8arJK4vj4zJwvESi/6uGYM=
+			</data>
+		</dict>
+		<key>Headers/RTCOpusManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dJL+/XCYTVWEEjTIsdhkvXQAZmY=
+			</data>
+			<key>hash2</key>
+			<data>
+			rVWaaU47J6C9wMT7QItHV3OyLUCEJwkBaJQdSsTLX6M=
+			</data>
+		</dict>
+		<key>Headers/RTCRnNoise.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Aszrl1iAAw3T/T2H/0Iy2HS1tH4=
+			</data>
+			<key>hash2</key>
+			<data>
+			p7bFB2EqBGSBa9fQuwthHajw4vhLkvDaVgicCg33xgw=
+			</data>
+		</dict>
 		<key>Headers/RTCVideoCreateRoomAnswer.h</key>
 		<dict>
 			<key>hash</key>
@@ -1511,11 +1556,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zg9P7ViECme+fWJjTX62hovk5pw=
+			utiMZ+k3S9wXsfemvKqKj6t5T70=
 			</data>
 			<key>hash2</key>
 			<data>
-			mV74UQTcBizRMlotfvNmSMejFjHw+bKe2ZoEtlzHaDM=
+			UZnFWNoAxz8Y6U7QN05xqvyl5NBt5iSLX0AW60xrPe0=
 			</data>
 		</dict>
 		<key>Headers/RTMSendAnswer.h</key>
